@@ -61,3 +61,46 @@ ls
 rm -rvf f2
 ls
 sudo -i
+pwd
+mkdir dir1
+ls
+cd dir1
+mkdir folder1 folder2
+ls
+cd folder1
+touch file{1..5}.py
+ls
+cd ..
+ls
+cd folder2
+touch file{6..10}.py
+ls
+cd ~
+ls
+mkdir dir2
+ls
+cd dir2
+mkdir folder3 folder4
+ls
+cd folder3
+touch file{11..15}.py
+cd ..
+ls
+cd folder4
+touch file{16..20}.py
+ls
+cd ~
+ls
+tree
+git init
+sudo yum install git -y
+cd ~
+ls
+git init
+git branch -m branch1
+git remote add origin https://github.com/koppakula/charan.git
+git remote -v
+git add .
+git commit -m "Added dir1 and dir2 with folders and files"
+git push origin branch1
+git status
